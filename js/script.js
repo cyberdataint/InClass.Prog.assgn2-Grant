@@ -1,14 +1,14 @@
-// Function to toggle visibility of a specific photo
+
 function togglePhoto(photoId) {
   const photo = document.getElementById(photoId);
   if (photo.style.display === "none" || photo.style.display === "") {
-    photo.style.display = "block"; // Show the photo
+    photo.style.display = "block"; 
   } else {
-    photo.style.display = "none"; // Hide the photo
+    photo.style.display = "none"; 
   }
 }
 
-// Event listeners for button clicks
+
 document.getElementById("btnA").addEventListener("click", function () {
   togglePhoto("photoA");
 });
